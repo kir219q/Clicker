@@ -1,0 +1,453 @@
+# Russian translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-10-10 08:35+0300\n"
+"PO-Revision-Date: 2021-08-10 18:50+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: ru\n"
+"Language-Team: ru <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers.py:63
+msgid "Ваш ник доступен, вы можете начать игру /click."
+msgstr ""
+
+#: handlers.py:66
+msgid "Ваш ник занят, введите другой."
+msgstr ""
+
+#: handlers.py:81
+msgid "Поздравляю! Вы выполнили достижение сбросить игру!"
+msgstr ""
+
+#: handlers.py:84
+msgid "Начать  игру /click "
+msgstr ""
+
+#: handlers.py:116
+msgid "Старт"
+msgstr ""
+
+#: handlers.py:123
+msgid ""
+"Продолжить /click.\n"
+" Начать заново, обнулив счет /restart"
+msgstr ""
+
+#: handlers.py:135
+msgid "Поздравляю! Вы выполнили достижение набрать 100 очков!"
+msgstr ""
+
+#: handlers.py:144
+msgid "Поздравляю! Вы выполнили достижение набрать 100 очков во второй раз!"
+msgstr ""
+
+#: handlers.py:147
+msgid "Счет {k}"
+msgstr ""
+
+#: handlers.py:152
+msgid "Ваши достижения"
+msgstr ""
+
+#: handlers.py:156
+msgid ""
+"\n"
+" Набрать 100 очков: Выполнено."
+msgstr ""
+
+#: handlers.py:159
+msgid ""
+"\n"
+" Набрать 100 очков: Не выполнено"
+msgstr ""
+
+#: handlers.py:162
+msgid ""
+"\n"
+" Сбросить игру: Выполнено"
+msgstr ""
+
+#: handlers.py:165
+msgid ""
+"\n"
+" Сбросить игру: Не выполнено"
+msgstr ""
+
+#: handlers.py:168
+msgid ""
+"\n"
+" Набрать 100 очков во второй раз (после сброса игры): Выполнено"
+msgstr ""
+
+#: handlers.py:171
+msgid ""
+"\n"
+" Набрать 100 очков во второй раз (после сброса игры): Не выполнено"
+msgstr ""
+
+#: handlers.py:179 handlers.py:683 handlers.py:690
+msgid ""
+"Сейчас вас счет = {k1}. Увеличение количества очков которые прибавляются "
+"за клик на один стоит {k2}. Вы хотите улучшить?"
+msgstr ""
+
+#: handlers.py:190 handlers.py:703 handlers.py:716
+msgid ""
+"Прибавление очков увеличено на один. Теперь оно = {k1}. Счет теперь равен"
+" {k2}"
+msgstr ""
+
+#: handlers.py:193 handlers.py:706 handlers.py:719
+msgid "На счете слишком мало очков."
+msgstr ""
+
+#: handlers.py:215
+msgid "Топ 5:"
+msgstr ""
+
+#: handlers.py:220 handlers.py:225
+msgid ""
+"\n"
+" {k1}  {k2}"
+msgstr ""
+
+#: handlers.py:234
+msgid "Пять случайных игроков:"
+msgstr ""
+
+#: handlers.py:326
+msgid "Выберите пункт в меню "
+msgstr ""
+
+#: handlers.py:390
+msgid "Введите новый ник."
+msgstr ""
+
+#: handlers.py:398
+msgid ""
+"Чтобы пригласить другого игрока, вам нужно разрешить приглашать себя. Вы "
+"можете сделать это в настройках"
+msgstr ""
+
+#: handlers.py:405
+msgid "Введите длительность боя в секундах (рекомендуется 60 секунд)."
+msgstr ""
+
+#: handlers.py:418
+msgid "Введите ник (в игре) игрока с которым хотите сразиться."
+msgstr ""
+
+#: handlers.py:429 handlers.py:454
+msgid ""
+"Данный пользователь не существует, либо не разрешает приглашать себя в "
+"сражения."
+msgstr ""
+
+#: handlers.py:436
+msgid ""
+"Данный пользователь сейчас находится в другом пвп сражении. Отправьте ему"
+" приглашение позднее."
+msgstr ""
+
+#: handlers.py:444
+msgid "Вас приглашают в PvP сражение. Длительностью в {k1} секунд. Имя игрока:"
+msgstr ""
+
+#: handlers.py:449
+msgid "Ваше приглашение отправлено дождитесь ответа."
+msgstr ""
+
+#: handlers.py:464
+msgid "Приглашение отмененно"
+msgstr ""
+
+#: handlers.py:475 handlers.py:530
+msgid "Начать игру."
+msgstr ""
+
+#: handlers.py:488
+msgid "Приглашение отклоненно."
+msgstr ""
+
+#: handlers.py:499
+msgid "Счет: {k1}"
+msgstr ""
+
+#: handlers.py:507
+msgid "Вы уже начали подбор."
+msgstr ""
+
+#: handlers.py:509 handlers.py:519
+msgid "Отменить поиск."
+msgstr ""
+
+#: handlers.py:516
+msgid ""
+"Бой длится 60 секунд. Ожидайте. Пока ваш соперник не найден. В это время "
+"вы можете поиграть в одиночном режиме"
+msgstr ""
+
+#: handlers.py:524
+msgid "Соперник найден. Бой длиться 60 секунд."
+msgstr ""
+
+#: handlers.py:539
+msgid "Подбор отменён"
+msgstr ""
+
+#: handlers.py:553 handlers.py:560 handlers.py:575 handlers.py:582
+#: handlers.py:629 handlers.py:675
+msgid "Счет {k1}"
+msgstr ""
+
+#: handlers.py:594
+msgid "Время вышло. Ваш счет {k1}."
+msgstr ""
+
+#: handlers.py:596 handlers.py:642
+msgid ""
+"\n"
+" Ваш соперник еще не закончил игру. Когда он сделает это вам придёт "
+"сообщение."
+msgstr ""
+
+#: handlers.py:601
+msgid "Ваш соперник {k1} закончил."
+msgstr ""
+
+#: handlers.py:602 handlers.py:604 handlers.py:648 handlers.py:649
+msgid ""
+"\n"
+" Счет вашего соперника {k1}"
+msgstr ""
+
+#: handlers.py:607 handlers.py:615 handlers.py:653 handlers.py:660
+msgid ""
+"\n"
+" Вы победили."
+msgstr ""
+
+#: handlers.py:609 handlers.py:613 handlers.py:654 handlers.py:659
+msgid ""
+"\n"
+" Вы проиграли."
+msgstr ""
+
+#: handlers.py:619 handlers.py:621 handlers.py:665 handlers.py:666
+msgid ""
+"\n"
+" Ничья."
+msgstr ""
+
+#: handlers.py:640
+msgid "Время вышло ваш счет {}."
+msgstr ""
+
+#: handlers.py:647
+msgid "Ваш соперник {k1} закончил ."
+msgstr ""
+
+#: textdef.py:7
+msgid "Ваш ник: {k1}.\n"
+msgstr ""
+
+#: textdef.py:9
+msgid "1)Вас нельзя пригашать в пвп сражения.\n"
+msgstr ""
+
+#: textdef.py:12
+msgid "1)Вас можно приглашать в пвп сражения.\n"
+msgstr ""
+
+#: textdef.py:21
+msgid "2)Ваш ник не отображается в списке лидеров.\n"
+msgstr ""
+
+#: textdef.py:24
+msgid "2)Ваш ник отображается в списке лидеров.\n"
+msgstr ""
+
+#: textdef.py:31
+msgid "Какой пункт вы хотите изменить?"
+msgstr ""
+
+#~ msgid ""
+#~ "Продолжить /click.\n"
+#~ " Начать заного, обнулив счет /start"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Набрать 100 очков:Выполненно"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Набрать 100 очков: Не выполненно"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Сбросить игру: Выполненно"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Сбросить игру: Не выполненно"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Набрать 100 очков во второй раз (после сброса игры): Выполненно"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Сейчас вас счет = {k1}. Увеличение "
+#~ "количества очков которые прибаляються за "
+#~ "клик на один стоит {k2}. Вы хотите"
+#~ " улучшить?"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Прибавление очков увеличенно на один. "
+#~ "Теперь оно = {k1}. Счет теперь "
+#~ "равен {k2}"
+#~ msgstr ""
+
+#~ msgid "Выберите пкнкт в меню "
+#~ msgstr ""
+
+#~ msgid "Введите длительность боя в секундах (рекомедуеться 60 секунд)."
+#~ msgstr ""
+
+#~ msgid "Введите ник (из телеграмма) игрока с которым хотите сразиться."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Данный пользователь сейчас находиться в "
+#~ "другом пвп сражении. Отправьте ему "
+#~ "приглашение позднее."
+#~ msgstr ""
+
+#~ msgid "Ваше приглашение отправленно дождитесь ответа."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Бой длиться 60 секунд. Ожидайте. Пока"
+#~ " ваш соперник не найден. В это "
+#~ "время вы можете поиграть в одиночном "
+#~ "режиме"
+#~ msgstr ""
+
+#~ msgid "Время вышло ваш счет {k1}."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Ваш соперник еще не закончил "
+#~ "игру. Когда он сделает это вам "
+#~ "прийдет сообщение."
+#~ msgstr ""
+
+#~ msgid "Отменить приглашение."
+#~ msgstr ""
+
+#~ msgid "Клик"
+#~ msgstr ""
+
+#~ msgid "Улучшить"
+#~ msgstr ""
+
+#~ msgid "Настройки"
+#~ msgstr ""
+
+#~ msgid "Достижения"
+#~ msgstr ""
+
+#~ msgid "Лидеры"
+#~ msgstr ""
+
+#~ msgid "Выход"
+#~ msgstr ""
+
+#~ msgid "Отмена"
+#~ msgstr ""
+
+#~ msgid "1)Вас нельзя пригашать в пвп сражения.\n"
+#~ msgstr ""
+
+#~ msgid "Согласен"
+#~ msgstr ""
+
+#~ msgid "Ввести количество заново"
+#~ msgstr ""
+
+#~ msgid "Отменить покупку"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Записал в базу"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Продолжить /click.\n"
+#~ " Начать заново, обнулив счет /start"
+#~ msgstr ""
+
+#~ msgid "2)Ваш ник не отображаеться в списке игроков мультиплеера.\n"
+#~ msgstr ""
+
+#~ msgid "2)Ваш ник отображаеться в списке игроков мультиплеера.\n"
+#~ msgstr ""
+
+#~ msgid "3)Ваш ник не отображаеться в списке лидеров.\n"
+#~ msgstr ""
+
+#~ msgid "3)Ваш ник отображаеться в списке лидеров.\n"
+#~ msgstr ""
+
+#~ msgid "2)Ваш ник не отображается в списке игроков мультиплеера.\n"
+#~ msgstr ""
+
+#~ msgid "2)Ваш ник отображается в списке игроков мультиплеера.\n"
+#~ msgstr ""
+
+#~ msgid "3)Ваш ник не отображается в списке лидеров.\n"
+#~ msgstr ""
+
+#~ msgid "3)Ваш ник отображается в списке лидеров.\n"
+#~ msgstr ""
+
+#~ msgid "Ваш ник занят введите другой."
+#~ msgstr ""
+
+#~ msgid "Ваш ник доступен вы можете начать игру /click."
+#~ msgstr ""
+
+#~ msgid "Введите ник (из телеграма) игрока с которым хотите сразиться."
+#~ msgstr ""
+
+#~ msgid "Ваш ник: {k1}."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ " Набрать 100 очков: Выполнено"
+#~ msgstr ""
+
+#~ msgid "Поздравляю! Вы выполнеили достижение сбросить игру!"
+#~ msgstr ""
+

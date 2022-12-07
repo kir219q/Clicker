@@ -1,0 +1,386 @@
+# English translations for PROJECT.
+# Copyright (C) 2021 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2021-10-10 08:35+0300\n"
+"PO-Revision-Date: 2021-08-10 18:50+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.9.1\n"
+
+#: handlers.py:63
+msgid "Ваш ник доступен, вы можете начать игру /click."
+msgstr "Your nickname is available, you can start the game /click"
+
+#: handlers.py:66
+msgid "Ваш ник занят, введите другой."
+msgstr "Your nickname is busy, enter another one."
+
+#: handlers.py:81
+msgid "Поздравляю! Вы выполнили достижение сбросить игру!"
+msgstr "Congratulations! You have completed the achievement to reset the game!"
+
+#: handlers.py:84
+msgid "Начать  игру /click "
+msgstr "Start the game /click"
+
+#: handlers.py:116
+msgid "Старт"
+msgstr "Start"
+
+#: handlers.py:123
+msgid ""
+"Продолжить /click.\n"
+" Начать заново, обнулив счет /restart"
+msgstr ""
+"Continue /click.\n"
+"Start again by resetting the account /restart"
+
+#: handlers.py:135
+msgid "Поздравляю! Вы выполнили достижение набрать 100 очков!"
+msgstr "Congratulations! You have completed the achievement to score 100 points!"
+
+#: handlers.py:144
+msgid "Поздравляю! Вы выполнили достижение набрать 100 очков во второй раз!"
+msgstr ""
+"Congratulations! You have completed the achievement to score 100 points "
+"for the second time!"
+
+#: handlers.py:147
+msgid "Счет {k}"
+msgstr "Score {k}"
+
+#: handlers.py:152
+msgid "Ваши достижения"
+msgstr "Your achievements"
+
+#: handlers.py:156
+msgid ""
+"\n"
+" Набрать 100 очков: Выполнено."
+msgstr ""
+"\n"
+" Score 100 points: Completed"
+
+#: handlers.py:159
+msgid ""
+"\n"
+" Набрать 100 очков: Не выполнено"
+msgstr ""
+"\n"
+" Score 100 points: Not completed"
+
+#: handlers.py:162
+msgid ""
+"\n"
+" Сбросить игру: Выполнено"
+msgstr ""
+"\n"
+" Reset the game: Completed"
+
+#: handlers.py:165
+msgid ""
+"\n"
+" Сбросить игру: Не выполнено"
+msgstr ""
+"\n"
+" Reset the game: Not completed"
+
+#: handlers.py:168
+msgid ""
+"\n"
+" Набрать 100 очков во второй раз (после сброса игры): Выполнено"
+msgstr ""
+"\n"
+" Score 100 points for the second time (after resetting the game): "
+"Completed"
+
+#: handlers.py:171
+msgid ""
+"\n"
+" Набрать 100 очков во второй раз (после сброса игры): Не выполнено"
+msgstr ""
+"\n"
+" Score 100 points for the second time (after resetting the game): Not "
+"completed"
+
+#: handlers.py:179 handlers.py:683 handlers.py:690
+msgid ""
+"Сейчас вас счет = {k1}. Увеличение количества очков которые прибавляются "
+"за клик на один стоит {k2}. Вы хотите улучшить?"
+msgstr ""
+"Now you have an account = {k1}. Increasing the number of points that are "
+"added per click by one is worth {k2}. Do you want to improve?"
+
+#: handlers.py:190 handlers.py:703 handlers.py:716
+msgid ""
+"Прибавление очков увеличено на один. Теперь оно = {k1}. Счет теперь равен"
+" {k2}"
+msgstr ""
+"The addition of points has been increased by one. Now it = {k1}. The "
+"score is now equal to {k2}"
+
+#: handlers.py:193 handlers.py:706 handlers.py:719
+msgid "На счете слишком мало очков."
+msgstr "There are too few points on the score."
+
+#: handlers.py:215
+msgid "Топ 5:"
+msgstr "Top 5:"
+
+#: handlers.py:220 handlers.py:225
+msgid ""
+"\n"
+" {k1}  {k2}"
+msgstr ""
+"\n"
+" {k1}  {k2}"
+
+#: handlers.py:234
+msgid "Пять случайных игроков:"
+msgstr "Five random players:"
+
+#: handlers.py:326
+msgid "Выберите пункт в меню "
+msgstr "Select the item in the settings"
+
+#: handlers.py:390
+msgid "Введите новый ник."
+msgstr "Enter a new nickname"
+
+#: handlers.py:398
+msgid ""
+"Чтобы пригласить другого игрока, вам нужно разрешить приглашать себя. Вы "
+"можете сделать это в настройках"
+msgstr ""
+"To invite another player, you need to allow yourself to be invited. You "
+"can do this in the settings"
+
+#: handlers.py:405
+msgid "Введите длительность боя в секундах (рекомендуется 60 секунд)."
+msgstr "Enter the duration of the fight in seconds (60 seconds is recommended)."
+
+#: handlers.py:418
+#, fuzzy
+msgid "Введите ник (в игре) игрока с которым хотите сразиться."
+msgstr "Enter the nickname (from telegram) of the player you want to fight"
+
+#: handlers.py:429 handlers.py:454
+msgid ""
+"Данный пользователь не существует, либо не разрешает приглашать себя в "
+"сражения."
+msgstr "This user does not exist, or does not allow to invite yourself to battles."
+
+#: handlers.py:436
+msgid ""
+"Данный пользователь сейчас находится в другом пвп сражении. Отправьте ему"
+" приглашение позднее."
+msgstr ""
+"This user is currently in another pvp battle. Send him an invitation "
+"later."
+
+#: handlers.py:444
+msgid "Вас приглашают в PvP сражение. Длительностью в {k1} секунд. Имя игрока:"
+msgstr ""
+"You are invited to a PvP battle. With a duration of {k1} seconds. Player "
+"name:"
+
+#: handlers.py:449
+msgid "Ваше приглашение отправлено дождитесь ответа."
+msgstr "Your invitation has been sent, wait for a response."
+
+#: handlers.py:464
+msgid "Приглашение отмененно"
+msgstr "The invitation has been canceled"
+
+#: handlers.py:475 handlers.py:530
+#, fuzzy
+msgid "Начать игру."
+msgstr "Start the game /click"
+
+#: handlers.py:488
+msgid "Приглашение отклоненно."
+msgstr "Invitation declined."
+
+#: handlers.py:499
+#, fuzzy
+msgid "Счет: {k1}"
+msgstr "Score {k}"
+
+#: handlers.py:507
+msgid "Вы уже начали подбор."
+msgstr "You have already started the search."
+
+#: handlers.py:509 handlers.py:519
+msgid "Отменить поиск."
+msgstr "Cancel the search."
+
+#: handlers.py:516
+msgid ""
+"Бой длится 60 секунд. Ожидайте. Пока ваш соперник не найден. В это время "
+"вы можете поиграть в одиночном режиме"
+msgstr ""
+"The fight lasts 60 seconds. Wait for it. Until your opponent is found. At"
+" this time, you can play in single-player mode"
+
+#: handlers.py:524
+msgid "Соперник найден. Бой длиться 60 секунд."
+msgstr "The opponent has been found. The fight lasts 60 seconds."
+
+#: handlers.py:539
+msgid "Подбор отменён"
+msgstr "\"Search canceled\""
+
+#: handlers.py:553 handlers.py:560 handlers.py:575 handlers.py:582
+#: handlers.py:629 handlers.py:675
+#, fuzzy
+msgid "Счет {k1}"
+msgstr "Score {k}"
+
+#: handlers.py:594
+msgid "Время вышло. Ваш счет {k1}."
+msgstr "ime is up. Your account is {k1}."
+
+#: handlers.py:596 handlers.py:642
+msgid ""
+"\n"
+" Ваш соперник еще не закончил игру. Когда он сделает это вам придёт "
+"сообщение."
+msgstr ""
+"Your opponent has not finished the game yet. When he does this, you will "
+"receive a message."
+
+#: handlers.py:601
+msgid "Ваш соперник {k1} закончил."
+msgstr "Your opponent {k1} has finished."
+
+#: handlers.py:602 handlers.py:604 handlers.py:648 handlers.py:649
+msgid ""
+"\n"
+" Счет вашего соперника {k1}"
+msgstr ""
+"\n"
+" Your opponent's score {k1}"
+
+#: handlers.py:607 handlers.py:615 handlers.py:653 handlers.py:660
+msgid ""
+"\n"
+" Вы победили."
+msgstr ""
+"\n"
+" You won."
+
+#: handlers.py:609 handlers.py:613 handlers.py:654 handlers.py:659
+msgid ""
+"\n"
+" Вы проиграли."
+msgstr ""
+"\n"
+"You lost."
+
+#: handlers.py:619 handlers.py:621 handlers.py:665 handlers.py:666
+msgid ""
+"\n"
+" Ничья."
+msgstr ""
+"\n"
+" Draw."
+
+#: handlers.py:640
+msgid "Время вышло ваш счет {}."
+msgstr "Time is up your account {}."
+
+#: handlers.py:647
+msgid "Ваш соперник {k1} закончил ."
+msgstr "Your opponent {k1} is finished ."
+
+#: textdef.py:7
+#, fuzzy
+msgid "Ваш ник: {k1}.\n"
+msgstr "Your nickname: {k1}."
+
+#: textdef.py:9
+msgid "1)Вас нельзя пригашать в пвп сражения.\n"
+msgstr "1)You can not be invited to PVP battles.\n"
+
+#: textdef.py:12
+msgid "1)Вас можно приглашать в пвп сражения.\n"
+msgstr "1)You can be invited to PVP battles.\n"
+
+#: textdef.py:21
+msgid "2)Ваш ник не отображается в списке лидеров.\n"
+msgstr "2)Your nickname is not displayed in the leaderboard.\n"
+
+#: textdef.py:24
+msgid "2)Ваш ник отображается в списке лидеров.\n"
+msgstr "2)Your nickname is displayed in the leaderboard.\n"
+
+#: textdef.py:31
+msgid "Какой пункт вы хотите изменить?"
+msgstr "Which item do you want to change?"
+
+#~ msgid "Отменить приглашение."
+#~ msgstr "Cancel the search."
+
+#~ msgid "Клик"
+#~ msgstr "Click"
+
+#~ msgid "Улучшить"
+#~ msgstr "Improve"
+
+#~ msgid "Настройки"
+#~ msgstr "Settings"
+
+#~ msgid "Достижения"
+#~ msgstr "Achievements"
+
+#~ msgid "Лидеры"
+#~ msgstr "Leaderboard"
+
+#~ msgid "Выход"
+#~ msgstr "Exit"
+
+#~ msgid "Отмена"
+#~ msgstr "Cancel"
+
+#~ msgid "1)Вас нельзя пригашать в пвп сражения.\n"
+#~ msgstr "1)You can not be invited to PVP battles.\n"
+
+#~ msgid "Согласен"
+#~ msgstr "sdfsdf"
+
+#~ msgid "Ввести количество заново"
+#~ msgstr "fdsfsdf"
+
+#~ msgid "Отменить покупку"
+#~ msgstr "Cancel the search."
+
+#~ msgid ""
+#~ "\n"
+#~ " Записал в базу"
+#~ msgstr ""
+#~ "\n"
+#~ "Wrote to the database"
+
+#~ msgid "2)Ваш ник не отображается в списке игроков мультиплеера.\n"
+#~ msgstr "2)Your nickname is not displayed in the list of multiplayer players.\n"
+
+#~ msgid "2)Ваш ник отображается в списке игроков мультиплеера.\n"
+#~ msgstr "2)Your nickname is displayed in the list of multiplayer players.\n"
+
+#~ msgid "Ваш ник занят введите другой."
+#~ msgstr ""
+
+#~ msgid "Ваш ник доступен вы можете начать игру /click."
+#~ msgstr ""
+
